@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registration</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<form action="#">
+			<div class="container">
+				<h1>Registrstion</h1>
+
+				<label for="email"><b>Email</b></label>
+				<input
+					type="text"
+					placeholder="Enter Email"
+					name="email"
+					id="email"
+					required
+				/>
+				<div class="error">
+					<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+				</div>
+	
+				<label for="phone"><b>Phone number</b></label>
+				<input
+					type="text"
+					placeholder="Enter phone number"
+					name="number"
+					id="phone"
+					required
+				/>
+				<div class="error">
+					<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+				</div>
+	
+				<button type="submit" class="btn">Registration Form</button>
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+						<span class="close"></span>
+					</div>
+				
+			</div>
+		</form>
+		<script src="./script.js"></script>
+	</body>
+</html>
